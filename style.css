@@ -20,3 +20,20 @@
   color: rgb(102, 252, 252);
   text-decoration: underline
 }
+
+#btn{
+  cursor: pointer;
+}
+#btn2{
+  cursor: pointer;
+}
+#nav-bar1, #nav-bar2, #nav-bar3{
+  cursor: pointer;
+}
+
+a:hover{
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  padding: 4px;
+}

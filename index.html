@@ -26,9 +26,9 @@
         <img src="./images/logo.svg" />
 
         <div class="flex gap-6 md:gap-10 text-[var(--white)] text-sm">
-          <p>Features</p>
-          <p>Team</p>
-          <p>Sign In</p>
+          <p id="nav-bar1"><a href="">Features</a></p>
+          <p id="nav-bar2"><a href="">Team</a></p>
+          <p id="nav-bar3"><a href="">Sign In</a></p>
         </div>
       </nav>
 
@@ -55,7 +55,7 @@
         </p>
 
         <button
-          class="rounded-full px-10 py-3 md:py-4 bg-[var(--teal-200)] text-lg font-bold text-[var(--white)]"
+          class="rounded-full px-10 py-3 md:py-4 bg-[var(--teal-200)] text-lg font-bold text-[var(--white)] hover:bg-black cursor-pointer"
         >
           Get Started
         </button>
@@ -221,7 +221,9 @@
             placeholder="email@example.com"
           />
 
-          <button class="rounded-full px-6 py-3 bg-[var(--teal-200)]">
+          <button
+            class="rounded-full px-6 py-3 bg-[var(--teal-200)] cursor-pointer hover:bg-black"
+          >
             Get Started For Free
           </button>
         </div>
@@ -232,7 +234,7 @@
         class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-10 text-white"
       >
         <div>
-          <img class="mb-6" src="./images/logo.svg" />
+          <a href=""><img class="mb-6" src="./images/logo.svg" /></a>
 
           <div class="flex gap-4">
             <img class="h-5" src="./images/icon-location.svg" />
@@ -257,22 +259,22 @@
         </div>
 
         <div class="space-y-2 text-sm">
-          <p>About Us</p>
-          <p>Jobs</p>
-          <p>Press</p>
-          <p>Blog</p>
+          <p><a href="">About Us</a></p>
+          <p><a href="">Jobs</a></p>
+          <p><a href="">Press</a></p>
+          <p><a href="">Blog</a></p>
         </div>
 
         <div class="space-y-2 text-sm">
-          <p>Contact</p>
-          <p>Terms</p>
-          <p>Privacy</p>
+          <p><a href="">Contact</a></p>
+          <p><a href="">Terms</a></p>
+          <p><a href="">Privacy</a></p>
         </div>
 
         <div class="flex gap-4 items-start md:justify-end">
-          <img class="w-6" src="./images/facebook.png" />
-          <img class="w-6" src="./images/twitter.png" />
-          <img class="w-6" src="./images/instagram.png" />
+          <a href=""><img class="w-6" src="./images/facebook.png" /></a>
+          <a href=""><img class="w-6" src="./images/twitter.png" /></a>
+          <a href=""><img class="w-6" src="./images/instagram.png" /></a>
         </div>
       </div>
     </footer>
