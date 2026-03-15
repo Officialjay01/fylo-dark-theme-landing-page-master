@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /* Navy Colors */
+  --navy-850: hsl(217, 28%, 15%); /* intro and email sign up background */
+  --navy-900: hsl(218, 28%, 13%); /* main background */
+  --navy-950: hsl(216, 53%, 9%); /* footer background */
+  --navy-800: hsl(219, 30%, 18%); /* testimonials background */
+
+  /* Accent */
+  --teal-200: hsl(176, 68%, 64%);
+  --cyan-500: hsl(198, 60%, 50%);
+  --red-500: hsl(0, 100%, 63%);
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+}
+
+#icon{
+  color: rgb(102, 252, 252);
+  text-decoration: underline
+}
